@@ -7,5 +7,5 @@ my_num = ([x for x in list_1 if isinstance(x, (int, float))])
 print(sum(my_num))
 
 my_word = ([y for y in list_1 if isinstance(y, str)])
-print(my_word)
-# доделать: выбрать слова с буквой 'a'
+new_list = [z for z in my_word if 'a' in z]
+print(new_list)
