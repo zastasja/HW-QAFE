@@ -3,7 +3,7 @@
 
 - :computer: I’m currently learning **QA automation on Python 3**
 - 🌍 I speak Russian (native), English (A2)
-- [![codewars](https://www.codewars.com/users/flouxe/badges/small)](https://www.codewars.com/users/penteada)  
+- [![codewars](https://www.codewars.com/users/penteada/badges/small)](https://www.codewars.com/users/penteada)  
 
 
 #### Connect with me:
