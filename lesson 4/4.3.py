@@ -2,7 +2,9 @@
 # создайте новый список, содержащий только положительные числа
 
 my_list = [20, -3, 15, 2, -1, -21]
-def positive(lst, filter=None):
+
+
+def change(lst, filter=None):
     if filter is None:
         return lst
 
@@ -10,8 +12,9 @@ def positive(lst, filter=None):
     for x in lst:
         if filter(x):
             r.append(x)
-
     return r
 
-res = positive(my_list, lambda x: x > 0)
+
+res = change(my_list, lambda x: x > 0)
 print(res)
+
