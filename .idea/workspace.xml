@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf9f6cc-f5fb-41a9-8ebc-74c9770fd26c" name="Changes" comment="added tests">
-      <change afterPath="$PROJECT_DIR$/lesson 8/test_api.py" afterDir="false" />
+    <list default="true" id="7bf9f6cc-f5fb-41a9-8ebc-74c9770fd26c" name="Changes" comment="added api tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 8/test_api2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 8/test_api2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666727828284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added api tests">
+      <created>1666771428566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771428566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added api tests">
+      <created>1666772427072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666772427072</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
     <MESSAGE value="added 4.3" />
     <MESSAGE value="added 4.5" />
     <MESSAGE value="added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
+    <MESSAGE value="added api tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added api tests" />
   </component>
 </project>
