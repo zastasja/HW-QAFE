@@ -47,4 +47,29 @@ for row in csv_f:
   print(f'Name: {name}, Phone: {phone}, Role: {role}')
 file.close()
 
+#writing into csv file with lists
+import csv
+
+hosts = [["workstation.local", "192.168.25.46"], ["workstation.cloud", "10.2.5.6"]]
+with open('hosts.csv', 'w') as hosts_csv:
+	writer = csv.writer(hosts_csv)
+	writer.writerows(hosts)
+	
+# reading csv as dict
+with open('software.csv') as software:
+	reader = csv.DictReader(software)
+	for row in reader:
+		print("{} has {} users".format(row["name"], row["users"]))
+
+# writing csv with dict
+users = [{"name":"Leo Nilson","username":"lion", "department":"Support"},
+	{"name":"Sol Mansi","username":"solm", "department":"Dev"},
+	{"name":"Charlie Grey","username":"greyc", "department":"UX"},]
+keys = ["name", "username", "department"]
+with open('by_department.csv', 'w') as by_department:
+	writer = csv.DictWriter(by_department, fieldnames=keys)
+	writer.writeheader()
+	writer.writerows(users)
+
+# https://docs.python.org/3/library/csv.html
 
